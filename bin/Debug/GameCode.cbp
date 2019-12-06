@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="GameCode"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/joesamyn/Documents/JoeSamynSchool/GameCode/bin/Debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/joesamyn/Documents/JoeSamynSchool/GameCode/bin/Debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/joesamyn/Documents/JoeSamynSchool/GameCode/bin/Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/joesamyn/Documents/JoeSamynSchool/GameCode/bin/Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/joesamyn/Documents/JoeSamynSchool/GameCode/bin/Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/joesamyn/Documents/JoeSamynSchool/GameCode/bin/Debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/joesamyn/Documents/JoeSamynSchool/GameCode/bin/Debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/joesamyn/Documents/JoeSamynSchool/GameCode/bin/Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/joesamyn/Documents/JoeSamynSchool/GameCode/bin/Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/joesamyn/Documents/JoeSamynSchool/GameCode/bin/Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/joesamyn/Documents/JoeSamynSchool/GameCode/bin/Debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/joesamyn/Documents/JoeSamynSchool/GameCode/bin/Debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/joesamyn/Documents/JoeSamynSchool/GameCode/bin/Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/joesamyn/Documents/JoeSamynSchool/GameCode/bin/Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/joesamyn/Documents/JoeSamynSchool/GameCode/bin/Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GameCode">
+				<Option output="/Users/joesamyn/Documents/JoeSamynSchool/GameCode/bin/Debug/GameCode" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/joesamyn/Documents/JoeSamynSchool/GameCode/bin/Debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/joesamyn/Documents/JoeSamynSchool/GameCode/include/Static"/>
+					<Add directory="/Users/joesamyn/Documents/JoeSamynSchool/GameCode/include/Game"/>
+					<Add directory="/Users/joesamyn/Documents/JoeSamynSchool/GameCode/include/Enum"/>
+					<Add directory="/Users/joesamyn/Documents/JoeSamynSchool/GameCode/src/Static"/>
+					<Add directory="/Users/joesamyn/Documents/JoeSamynSchool/GameCode/include/Constants"/>
+					<Add directory="/Users/joesamyn/Documents/JoeSamynSchool/GameCode/src/Constants"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/joesamyn/Documents/JoeSamynSchool/GameCode/bin/Debug/Makefile&quot;  VERBOSE=1 GameCode"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/joesamyn/Documents/JoeSamynSchool/GameCode/bin/Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/joesamyn/Documents/JoeSamynSchool/GameCode/bin/Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/joesamyn/Documents/JoeSamynSchool/GameCode/bin/Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GameCode/fast">
+				<Option output="/Users/joesamyn/Documents/JoeSamynSchool/GameCode/bin/Debug/GameCode" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/joesamyn/Documents/JoeSamynSchool/GameCode/bin/Debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/joesamyn/Documents/JoeSamynSchool/GameCode/include/Static"/>
+					<Add directory="/Users/joesamyn/Documents/JoeSamynSchool/GameCode/include/Game"/>
+					<Add directory="/Users/joesamyn/Documents/JoeSamynSchool/GameCode/include/Enum"/>
+					<Add directory="/Users/joesamyn/Documents/JoeSamynSchool/GameCode/src/Static"/>
+					<Add directory="/Users/joesamyn/Documents/JoeSamynSchool/GameCode/include/Constants"/>
+					<Add directory="/Users/joesamyn/Documents/JoeSamynSchool/GameCode/src/Constants"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/joesamyn/Documents/JoeSamynSchool/GameCode/bin/Debug/Makefile&quot;  VERBOSE=1 GameCode/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/joesamyn/Documents/JoeSamynSchool/GameCode/bin/Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/joesamyn/Documents/JoeSamynSchool/GameCode/bin/Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/joesamyn/Documents/JoeSamynSchool/GameCode/bin/Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/joesamyn/Documents/JoeSamynSchool/GameCode/include/Constants/GameConstants.h">
+			<Option target="GameCode"/>
+		</Unit>
+		<Unit filename="/Users/joesamyn/Documents/JoeSamynSchool/GameCode/include/Enum/ArmorType.h">
+			<Option target="GameCode"/>
+		</Unit>
+		<Unit filename="/Users/joesamyn/Documents/JoeSamynSchool/GameCode/include/Enum/WeaponType.h">
+			<Option target="GameCode"/>
+		</Unit>
+		<Unit filename="/Users/joesamyn/Documents/JoeSamynSchool/GameCode/include/Game/Armor.h">
+			<Option target="GameCode"/>
+		</Unit>
+		<Unit filename="/Users/joesamyn/Documents/JoeSamynSchool/GameCode/include/Game/Axe.h">
+			<Option target="GameCode"/>
+		</Unit>
+		<Unit filename="/Users/joesamyn/Documents/JoeSamynSchool/GameCode/include/Game/Character.h">
+			<Option target="GameCode"/>
+		</Unit>
+		<Unit filename="/Users/joesamyn/Documents/JoeSamynSchool/GameCode/include/Game/EasyEnemy.h">
+			<Option target="GameCode"/>
+		</Unit>
+		<Unit filename="/Users/joesamyn/Documents/JoeSamynSchool/GameCode/include/Game/GameItem.h">
+			<Option target="GameCode"/>
+		</Unit>
+		<Unit filename="/Users/joesamyn/Documents/JoeSamynSchool/GameCode/include/Game/HardEnemy.h">
+			<Option target="GameCode"/>
+		</Unit>
+		<Unit filename="/Users/joesamyn/Documents/JoeSamynSchool/GameCode/include/Game/IronArmor.h">
+			<Option target="GameCode"/>
+		</Unit>
+		<Unit filename="/Users/joesamyn/Documents/JoeSamynSchool/GameCode/include/Game/LeatherArmor.h">
+			<Option target="GameCode"/>
+		</Unit>
+		<Unit filename="/Users/joesamyn/Documents/JoeSamynSchool/GameCode/include/Game/MediumEnemy.h">
+			<Option target="GameCode"/>
+		</Unit>
+		<Unit filename="/Users/joesamyn/Documents/JoeSamynSchool/GameCode/include/Game/Player.h">
+			<Option target="GameCode"/>
+		</Unit>
+		<Unit filename="/Users/joesamyn/Documents/JoeSamynSchool/GameCode/include/Game/PlayerItem.h">
+			<Option target="GameCode"/>
+		</Unit>
+		<Unit filename="/Users/joesamyn/Documents/JoeSamynSchool/GameCode/include/Game/SteelArmor.h">
+			<Option target="GameCode"/>
+		</Unit>
+		<Unit filename="/Users/joesamyn/Documents/JoeSamynSchool/GameCode/include/Game/Sword.h">
+			<Option target="GameCode"/>
+		</Unit>
+		<Unit filename="/Users/joesamyn/Documents/JoeSamynSchool/GameCode/include/Game/Weapon.h">
+			<Option target="GameCode"/>
+		</Unit>
+		<Unit filename="/Users/joesamyn/Documents/JoeSamynSchool/GameCode/include/Static/Arena.h">
+			<Option target="GameCode"/>
+		</Unit>
+		<Unit filename="/Users/joesamyn/Documents/JoeSamynSchool/GameCode/include/Static/InputOutput.h">
+			<Option target="GameCode"/>
+		</Unit>
+		<Unit filename="/Users/joesamyn/Documents/JoeSamynSchool/GameCode/include/Static/SaveLoadGame.h">
+			<Option target="GameCode"/>
+		</Unit>
+		<Unit filename="/Users/joesamyn/Documents/JoeSamynSchool/GameCode/include/Static/Store.h">
+			<Option target="GameCode"/>
+		</Unit>
+		<Unit filename="/Users/joesamyn/Documents/JoeSamynSchool/GameCode/main.cpp">
+			<Option target="GameCode"/>
+		</Unit>
+		<Unit filename="/Users/joesamyn/Documents/JoeSamynSchool/GameCode/src/Armor.cpp">
+			<Option target="GameCode"/>
+		</Unit>
+		<Unit filename="/Users/joesamyn/Documents/JoeSamynSchool/GameCode/src/Axe.cpp">
+			<Option target="GameCode"/>
+		</Unit>
+		<Unit filename="/Users/joesamyn/Documents/JoeSamynSchool/GameCode/src/Character.cpp">
+			<Option target="GameCode"/>
+		</Unit>
+		<Unit filename="/Users/joesamyn/Documents/JoeSamynSchool/GameCode/src/Constants/GameConstants.cpp">
+			<Option target="GameCode"/>
+		</Unit>
+		<Unit filename="/Users/joesamyn/Documents/JoeSamynSchool/GameCode/src/EasyEnemy.cpp">
+			<Option target="GameCode"/>
+		</Unit>
+		<Unit filename="/Users/joesamyn/Documents/JoeSamynSchool/GameCode/src/GameItem.cpp">
+			<Option target="GameCode"/>
+		</Unit>
+		<Unit filename="/Users/joesamyn/Documents/JoeSamynSchool/GameCode/src/HardEnemy.cpp">
+			<Option target="GameCode"/>
+		</Unit>
+		<Unit filename="/Users/joesamyn/Documents/JoeSamynSchool/GameCode/src/IronArmor.cpp">
+			<Option target="GameCode"/>
+		</Unit>
+		<Unit filename="/Users/joesamyn/Documents/JoeSamynSchool/GameCode/src/LeatherArmor.cpp">
+			<Option target="GameCode"/>
+		</Unit>
+		<Unit filename="/Users/joesamyn/Documents/JoeSamynSchool/GameCode/src/MediumEnemy.cpp">
+			<Option target="GameCode"/>
+		</Unit>
+		<Unit filename="/Users/joesamyn/Documents/JoeSamynSchool/GameCode/src/Player.cpp">
+			<Option target="GameCode"/>
+		</Unit>
+		<Unit filename="/Users/joesamyn/Documents/JoeSamynSchool/GameCode/src/PlayerItem.cpp">
+			<Option target="GameCode"/>
+		</Unit>
+		<Unit filename="/Users/joesamyn/Documents/JoeSamynSchool/GameCode/src/Static/Arena.cpp">
+			<Option target="GameCode"/>
+		</Unit>
+		<Unit filename="/Users/joesamyn/Documents/JoeSamynSchool/GameCode/src/Static/InputOutput.cpp">
+			<Option target="GameCode"/>
+		</Unit>
+		<Unit filename="/Users/joesamyn/Documents/JoeSamynSchool/GameCode/src/Static/SaveLoadGame.cpp">
+			<Option target="GameCode"/>
+		</Unit>
+		<Unit filename="/Users/joesamyn/Documents/JoeSamynSchool/GameCode/src/Static/Store.cpp">
+			<Option target="GameCode"/>
+		</Unit>
+		<Unit filename="/Users/joesamyn/Documents/JoeSamynSchool/GameCode/src/SteelArmor.cpp">
+			<Option target="GameCode"/>
+		</Unit>
+		<Unit filename="/Users/joesamyn/Documents/JoeSamynSchool/GameCode/src/Sword.cpp">
+			<Option target="GameCode"/>
+		</Unit>
+		<Unit filename="/Users/joesamyn/Documents/JoeSamynSchool/GameCode/src/Weapon.cpp">
+			<Option target="GameCode"/>
+		</Unit>
+		<Unit filename="/Users/joesamyn/Documents/JoeSamynSchool/GameCode/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
