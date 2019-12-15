@@ -4,6 +4,8 @@
 
 #include "Character.h"
 
+// Base character class.  Inherited by Player and Enemy clases.
+
 // Constructors
 Character::Character(Armor* armor, Weapon* weapon, double health)
     : CurrentArmor(move(armor)), CurrentWeapon(move(weapon)), Health(health) {}

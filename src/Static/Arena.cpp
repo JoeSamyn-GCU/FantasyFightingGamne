@@ -9,6 +9,7 @@
 #include <GameConstants.h>
 #include "Arena.h"
 
+// Constructor for arena
 Arena::Arena(int enemyType, Player* player){
     switch(enemyType){
         case 1:
@@ -27,11 +28,13 @@ Arena::Arena(int enemyType, Player* player){
     this->EnemyType = enemyType;
 }
 
+// Deconstructor
 Arena::~Arena(){
     delete player;
     delete enemy;
 }
 
+// Handles the primary fight loop and method calls
 Player* Arena::FightLoop() {
     bool playerFirst = DetermineWhoGetsFirstTurn();
     while(this->player->GetHealth() > 0 && this->enemy->GetHealth() > 0 && this->player->GetCurrentWeapon()->GetHealth() > 0 and this->enemy->GetCurrentWeapon()->GetHealth() > 0){
@@ -49,6 +52,7 @@ Player* Arena::FightLoop() {
     return this->player;
 }
 
+// Handles players turn in the fight and executes player selections.
 void Arena::PlayerTurn() {
     PrintPlayerStats();
 
@@ -74,6 +78,7 @@ void Arena::PlayerTurn() {
     }
 }
 
+// Handles the enemy turn in the battle.  Uses random number to pick enemy action
 void Arena::EnemyTurn() {
     srand(time(nullptr));
 
@@ -91,6 +96,7 @@ void Arena::EnemyTurn() {
     }
 }
 
+// Check to see who goes first in the fight based on character vs enemy stats
 bool Arena::DetermineWhoGetsFirstTurn() {
     if(this->player->GetCurrentArmor()->GetWeight() < this->enemy->GetCurrentArmor()->GetWeight())
         return true;
@@ -102,6 +108,7 @@ bool Arena::DetermineWhoGetsFirstTurn() {
         return false;
 }
 
+// Processes the attack from the player or enemy
 void Arena::ProcessAttack(int turn){
     double damageResistance = 0;
     double totDamage = 0;
@@ -129,6 +136,7 @@ void Arena::ProcessAttack(int turn){
     }
 }
 
+// Processes block action from user and enemy
 void Arena::ProcessBlock(int turn) {
     double damageResistance = 0;
     double totDamage = 0;
@@ -145,6 +153,7 @@ void Arena::ProcessBlock(int turn) {
     }
 }
 
+// Finished updating player stats and processing end of fight procedures
 void Arena::ProcessEndOfFight() {
     if(this->player->GetHealth() <= 0)
     {
@@ -187,6 +196,7 @@ void Arena::ProcessEndOfFight() {
     }
 }
 
+// Prints the player stats to console
 void Arena::PrintPlayerStats() {
     InputOutput::PrintToConsole("Health: " + to_string(this->player->GetHealth()));
     InputOutput::PrintToConsole("Weapon Health: " + to_string(this->player->GetCurrentWeapon()->GetHealth()));

@@ -12,7 +12,22 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e261fad-d108-4fbd-baf0-33e547a9baf1" name="Default Changelist" comment="" />
+    <list default="true" id="6e261fad-d108-4fbd-baf0-33e547a9baf1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/GameCode" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/GameCode" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/Enum/ArmorType.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/Enum/ArmorType.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/Enum/WeaponType.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/Enum/WeaponType.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/Game/GameItem.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/Game/GameItem.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Armor.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Armor.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Character.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Character.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Constants/GameConstants.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Constants/GameConstants.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameItem.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameItem.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Player.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Player.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Static/Arena.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Static/Arena.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Static/InputOutput.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Static/InputOutput.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Static/SaveLoadGame.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Static/SaveLoadGame.cpp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,7 +37,11 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1U1xAr5PnJXr4pKJHoaLgjvka2i" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -84,6 +103,11 @@
       <workItem from="1575576866850" duration="5252000" />
       <workItem from="1575603171599" duration="31000" />
       <workItem from="1575603562171" duration="11792000" />
+      <workItem from="1575646056982" duration="245000" />
+      <workItem from="1575653265130" duration="2180000" />
+      <workItem from="1575672910182" duration="725000" />
+      <workItem from="1575681286882" duration="214000" />
+      <workItem from="1575682358414" duration="537000" />
     </task>
     <servers />
   </component>
@@ -103,26 +127,30 @@
       <screen x="1680" y="0" width="1920" height="1080" />
     </state>
     <state x="1780" y="100" width="1720" height="880" key="DiffContextDialog/1680.0.1920.1080/0.23.1680.976@1680.0.1920.1080" timestamp="1575615283368" />
-    <state width="1878" height="206" key="GridCell.Tab.0.bottom" timestamp="1575615420124">
-      <screen x="1680" y="0" width="1920" height="1080" />
+    <state width="1638" height="261" key="GridCell.Tab.0.bottom" timestamp="1575682895833">
+      <screen x="1680" y="23" width="1920" height="1057" />
     </state>
     <state width="1878" height="206" key="GridCell.Tab.0.bottom/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1575615420124" />
     <state width="1878" height="206" key="GridCell.Tab.0.bottom/1680.0.1920.1080/0.23.1680.1027@1680.0.1920.1080" timestamp="1575606664427" />
-    <state width="1878" height="206" key="GridCell.Tab.0.center" timestamp="1575615420122">
-      <screen x="1680" y="0" width="1920" height="1080" />
+    <state width="1638" height="261" key="GridCell.Tab.0.bottom/1680.23.1920.1057/0.23.1680.974@1680.23.1920.1057" timestamp="1575682895833" />
+    <state width="1638" height="261" key="GridCell.Tab.0.center" timestamp="1575682895832">
+      <screen x="1680" y="23" width="1920" height="1057" />
     </state>
     <state width="1878" height="206" key="GridCell.Tab.0.center/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1575615420122" />
     <state width="1878" height="206" key="GridCell.Tab.0.center/1680.0.1920.1080/0.23.1680.1027@1680.0.1920.1080" timestamp="1575606664426" />
-    <state width="1878" height="206" key="GridCell.Tab.0.left" timestamp="1575615420122">
-      <screen x="1680" y="0" width="1920" height="1080" />
+    <state width="1638" height="261" key="GridCell.Tab.0.center/1680.23.1920.1057/0.23.1680.974@1680.23.1920.1057" timestamp="1575682895832" />
+    <state width="1638" height="261" key="GridCell.Tab.0.left" timestamp="1575682895832">
+      <screen x="1680" y="23" width="1920" height="1057" />
     </state>
     <state width="1878" height="206" key="GridCell.Tab.0.left/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1575615420122" />
     <state width="1878" height="206" key="GridCell.Tab.0.left/1680.0.1920.1080/0.23.1680.1027@1680.0.1920.1080" timestamp="1575606664425" />
-    <state width="1878" height="206" key="GridCell.Tab.0.right" timestamp="1575615420123">
-      <screen x="1680" y="0" width="1920" height="1080" />
+    <state width="1638" height="261" key="GridCell.Tab.0.left/1680.23.1920.1057/0.23.1680.974@1680.23.1920.1057" timestamp="1575682895832" />
+    <state width="1638" height="261" key="GridCell.Tab.0.right" timestamp="1575682895833">
+      <screen x="1680" y="23" width="1920" height="1057" />
     </state>
     <state width="1878" height="206" key="GridCell.Tab.0.right/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1575615420123" />
     <state width="1878" height="206" key="GridCell.Tab.0.right/1680.0.1920.1080/0.23.1680.1027@1680.0.1920.1080" timestamp="1575606664426" />
+    <state width="1638" height="261" key="GridCell.Tab.0.right/1680.23.1920.1057/0.23.1680.974@1680.23.1920.1057" timestamp="1575682895833" />
     <state width="1878" height="206" key="GridCell.Tab.1.bottom" timestamp="1575615420126">
       <screen x="1680" y="0" width="1920" height="1080" />
     </state>
@@ -143,10 +171,13 @@
     </state>
     <state width="1878" height="206" key="GridCell.Tab.1.right/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1575615420125" />
     <state width="1878" height="206" key="GridCell.Tab.1.right/1680.0.1920.1080/0.23.1680.1027@1680.0.1920.1080" timestamp="1575606673434" />
-    <state x="517" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1575646056970">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state x="2271" y="369" key="com.intellij.ide.util.TipDialog" timestamp="1575681287563">
+      <screen x="1680" y="23" width="1920" height="1057" />
     </state>
     <state x="517" y="344" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1575646056970" />
+    <state x="517" y="343" key="com.intellij.ide.util.TipDialog/0.23.1680.976@0.23.1680.976" timestamp="1575653266581" />
+    <state x="517" y="342" key="com.intellij.ide.util.TipDialog/1680.23.1920.1057/0.23.1680.974@0.23.1680.974" timestamp="1575672911860" />
+    <state x="2271" y="369" key="com.intellij.ide.util.TipDialog/1680.23.1920.1057/0.23.1680.974@1680.23.1920.1057" timestamp="1575681287563" />
     <state x="517" y="343" key="com.intellij.ide.util.TipDialog/1680.23.1920.1057/0.23.1680.976@0.23.1680.976" timestamp="1575603562396" />
     <state x="2305" y="241" width="670" height="676" key="search.everywhere.popup" timestamp="1575609388875">
       <screen x="1680" y="0" width="1920" height="1080" />
@@ -158,17 +189,17 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/src/Static/SaveLoadGame.cpp</url>
-          <line>25</line>
+          <line>28</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/src/Static/SaveLoadGame.cpp</url>
-          <line>28</line>
+          <line>31</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>149</line>
+          <line>155</line>
           <option name="timeStamp" value="31" />
         </line-breakpoint>
       </breakpoints>

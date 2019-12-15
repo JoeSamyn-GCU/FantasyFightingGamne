@@ -4,7 +4,18 @@
 
 #include "GameConstants.h"
 
-const string GameConstants::Rules = "Hello These are the rules";
+// Class used to manage all constant text properties that will be printed to console
+
+const string GameConstants::Rules = "Welcome to the Fantasy Fighting Game!\n"
+                                    "This game is a turn based fighting game that allows you\n"
+                                    "to enter the arena and accumulate gold to puy new weapons\n"
+                                    "and armor.  The player is allowed one piece of armor and one\n"
+                                    "weapon.  The lighter armor is cheaper but allows the player to\n"
+                                    "take more damage.  When entering combat, the player with the\n"
+                                    "lighter armor and faster weapon goes first.  The fastest weapon\n"
+                                    "is the axe.  When purchasing a new set of armor or a weapon, the \n"
+                                    "newly purchased item will replace the one in your current inventory.\n"
+                                    "Have fun and enjoy the game.\n\n\n";
 const string GameConstants::StartMenu = "START MENU\n\n"
                                         "1. Create Player\n"
                                         "2. Load Player\n"
@@ -48,9 +59,9 @@ const string GameConstants::CreatePlayerText = "**CREATE NEW CHARACTER**\n"
 const string GameConstants::CharacterDataNotFoundText = "The character name you searched for was not found in system.\n"
                                                         "Make sure you spelled the character name correctly and try again.\n";
 const string GameConstants::SelectEnemyText = "Which enemy would you like to fight?\n"
-                                              "1. Easy Enemy     Reward: 25 G\n"
-                                              "2. Medium Enemy   Reward: 50 G\n"
-                                              "3. Hard Enemy     Reward: 100 G\n";
+                                              "1. Easy Enemy     Reward: 15 G\n"
+                                              "2. Medium Enemy   Reward: 25 G\n"
+                                              "3. Hard Enemy     Reward: 35 G\n";
 const string GameConstants::PlayerTurnText = "YOUR MOVE \n"
                                              "What would you like to do?\n"
                                              "1. Attack\n"

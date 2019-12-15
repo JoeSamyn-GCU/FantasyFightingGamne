@@ -28,7 +28,11 @@ void Player::UsePotion() {
     this->PotionCount--;
 }
 
+// increase potion count
 void Player::AddPotionToPotionCount(int count) { this->PotionCount+=count; }
 
+// increase gold
 void Player::AddGold(double award) { this->Gold += award; }
+
+// increase subtract gold
 void Player::SubtractGold(double cost) { this->Gold -= cost; }

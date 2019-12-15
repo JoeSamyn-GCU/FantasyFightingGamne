@@ -8,6 +8,7 @@
 #include <SteelArmor.h>
 #include "SaveLoadGame.h"
 
+// Save player to file based on player name
 void SaveLoadGame::SavePlayer(Player* player){
     string playerString = ConvertPlayerToText(player);
     WriteTextToFile(playerString, player->GetPlayerName()+"Data.txt");
@@ -15,12 +16,14 @@ void SaveLoadGame::SavePlayer(Player* player){
     WriteTextToFile(ConvertArmorToString(player->GetCurrentArmor()), player->GetPlayerName() + "ArmorData.txt");
 }
 
+// Load player data from file
 Player* SaveLoadGame::LoadPlayer(string PlayerName) {
 
     string* text = ReadTextFromFile(PlayerName);
     return ConvertTextToPlayer(text, PlayerName);
 }
 
+// Conver the player data to string to be read to text file
 string SaveLoadGame::ConvertPlayerToText(Player* player) {
     string text;
     text = player->GetPlayerName() + "\n"
@@ -29,6 +32,7 @@ string SaveLoadGame::ConvertPlayerToText(Player* player) {
     return text;
 }
 
+// Convert text from data to Player object
 Player* SaveLoadGame::ConvertTextToPlayer(string* params, string name) {
     // Convert params[2] and params[3[ to armor and weapon object
     double health = stod(params[2]);
@@ -41,6 +45,7 @@ Player* SaveLoadGame::ConvertTextToPlayer(string* params, string name) {
     return player;
 }
 
+// Writes player text data to file
 void SaveLoadGame::WriteTextToFile(const string& data, const string& fileName) {
     ofstream playerFile;
     playerFile.open(fileName);
@@ -48,6 +53,7 @@ void SaveLoadGame::WriteTextToFile(const string& data, const string& fileName) {
     playerFile.close();
 }
 
+// Reads data from file
 string* SaveLoadGame::ReadTextFromFile(string name) {
     string line;
     ifstream playerText(name+"Data.txt");
@@ -64,17 +70,20 @@ int lineCount = 0;
     return data;
 }
 
+// Converts player weapon data to string
 string SaveLoadGame::ConvertWeaponToString(Weapon* weapon) {
     return to_string(weapon->GetWeaponType()) + "\n"
         + to_string(weapon->GetHealth()) + "\n";
 }
 
+// converts player armor data to string
 string SaveLoadGame::ConvertArmorToString(Armor* armor) {
 
     return to_string(armor->GetArmorType()) + "\n"
         + to_string(armor->GetHealth()) + "\n";
 }
 
+// Read weapon data from txt file
 Weapon* SaveLoadGame::GetWeaponDataFromFile(string name) {
     string line;
     ifstream weaponText(name+"WeaponData.txt");
@@ -89,6 +98,7 @@ Weapon* SaveLoadGame::GetWeaponDataFromFile(string name) {
     return GetWeaponType(data);
 }
 
+// read armor data from txt file
 Armor* SaveLoadGame::GetArmorDataFromFile(string name) {
     string line;
     ifstream armorText(name+"ArmorData.txt");
@@ -103,6 +113,7 @@ Armor* SaveLoadGame::GetArmorDataFromFile(string name) {
     return GetArmorType(data);
 }
 
+// converts weapon type int to weapon object
 Weapon* SaveLoadGame::GetWeaponType(string* weaponString){
     Weapon* weapon;
     if(weaponString[0] == "1"){
@@ -113,6 +124,7 @@ Weapon* SaveLoadGame::GetWeaponType(string* weaponString){
     return weapon;
 }
 
+// Converts armor type int to Armor object
 Armor* SaveLoadGame::GetArmorType(string* armorData) {
     Armor* armor;
     if(armorData[0] == "1")
@@ -127,6 +139,7 @@ Armor* SaveLoadGame::GetArmorType(string* armorData) {
     return armor;
 }
 
+// Check that file exists before loading file
 bool SaveLoadGame::CheckFileExists(const string& name) {
     ifstream file(name+"Data.txt");
     return (bool)file;

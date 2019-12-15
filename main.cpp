@@ -40,6 +40,7 @@ int main() {
 }
 
 // Function Implementations
+// Runs the start menu and handles start menu selections
 void StartGame(){
     InputOutput::PrintToConsole(GameConstants::Rules);
 
@@ -67,6 +68,7 @@ void StartGame(){
     }
 }
 
+// Allows the user to create a new character
 void CreateNewPlayer(){
     bool createdSuccessfully = false;
     while(!createdSuccessfully) {
@@ -86,6 +88,7 @@ void CreateNewPlayer(){
     }
 }
 
+// Runs logic to load a character from disk.
 void LoadPlayer(){
     bool loadSuccesful = false;
     while(!loadSuccesful) {
@@ -100,6 +103,7 @@ void LoadPlayer(){
     }
 }
 
+// Runs the loop for the store and handles all selections
 void RunStoreLoop(){
     int input = 0;
 
@@ -136,6 +140,7 @@ void RunStoreLoop(){
     }
 }
 
+// Manages the loop for the arena
 void RunArenaLoop(){
 
     InputOutput::PrintToConsole(GameConstants::SelectEnemyText);
@@ -144,6 +149,7 @@ void RunArenaLoop(){
     arena.FightLoop();
 }
 
+// Handles the Main Menu and main menu selections, primary game loop
 void GameLoop(){
     int input = 0;
     while(input != 5){
@@ -171,6 +177,7 @@ void GameLoop(){
     }
 }
 
+// Prints the character stats to the console
 void DisplayCharacterDetails(){
     InputOutput::PrintToConsole("Name: " + CurrentPlayer->GetPlayerName());
     InputOutput::PrintToConsole("Gold: " + to_string(CurrentPlayer->GetGold()));
@@ -180,6 +187,7 @@ void DisplayCharacterDetails(){
     PrintWeaponType();
 }
 
+// Converts armor type to string
 void PrintArmorType(){
     if(CurrentPlayer->GetCurrentArmor()->GetArmorType() == 1)
         InputOutput::PrintToConsole("Armor: Leather Armor");
@@ -189,6 +197,7 @@ void PrintArmorType(){
         InputOutput::PrintToConsole("Armor: Steel Armor");
 }
 
+// Converts weapon type to string
 void PrintWeaponType(){
     if(CurrentPlayer->GetCurrentWeapon()->GetWeaponType() == 1)
         InputOutput::PrintToConsole("Weapon: Sword");
@@ -196,6 +205,7 @@ void PrintWeaponType(){
         InputOutput::PrintToConsole("Weapon: Axe");
 }
 
+// Handles memory leaks
 void EndGame(){
     delete CurrentPlayer;
 }

@@ -4,6 +4,8 @@
 
 #include "GameItem.h"
 
+// Base Game Item class.  Inherited by any object used in the game that is not a character
+
 // Class Implementations
 
 // Constructors
@@ -12,8 +14,6 @@ GameItem::GameItem(double cost, string desc) :  Cost(cost), Description(move(des
 
 // Getters
 double GameItem::GetCost() { return this->Cost; }
-string GameItem::GetDescription() { return this->Description; }
 
 // Setters
 void GameItem::SetCost(double cost) { this->Cost = cost; }
-void GameItem::SetDescription(string desc) { this->Description = move(desc); }

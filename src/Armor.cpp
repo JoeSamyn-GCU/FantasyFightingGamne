@@ -4,6 +4,8 @@
 
 #include "Armor.h"
 
+// Base Armor class inherited by all the armor types.
+
 // Constructors
 Armor::Armor() : PlayerItem(0, 10, 10) {
 }

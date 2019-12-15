@@ -21,11 +21,9 @@ public:
 
     // Getter Methods
     double GetCost();
-    string GetDescription();
 
     // Setters Methods
     void SetCost(double cost);
-    void SetDescription(string desc);
 };
 
 
